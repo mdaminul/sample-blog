@@ -1,0 +1,132 @@
+*{margin:0;padding:0}
+
+input[type="text"], input[type="password"] {
+font-size: 15px;
+padding: 2px 6px;
+border: 1px solid #EFBDBD;
+border-radius: 3px;
+color: #1E2027;
+}
+
+
+input[type="submit"] {
+border: none;
+background: #0AFFF6;
+font-size: 15px;
+color: #525252;
+text-transform: uppercase;
+padding: 5px 10px;
+font-weight: 600;
+border-radius: 4px;
+float: right;
+margin-top: 17px;
+cursor: pointer;
+}
+input:focus{outline:none;}
+
+input.long[type="text"]{width:710px;}
+input.medium[type="text"]{width:400px;}
+input.short[type="text"]{width:200px;}
+
+.login {
+width: 300px;
+background: #ddd;
+margin: 100px auto 0 auto;
+padding: 15px 10px;
+border-radius: 4px;
+}
+h2.login_hea {
+text-align: center;
+margin-top: 0px;
+margin-bottom: 15px;
+font-size: 30px;
+font-family: cursive;
+color: #AE5555;
+}
+.login table tr td input[type="text"],.login table tr td input[type="password"]{
+
+}
+.login table tr{
+	margin-top:10px;
+}
+
+a,a:hover,a:link,a:visited{text-decoration:none;}
+
+#wrapper {
+width: 960px;
+margin: 0 auto;
+border: 1px solid #907C7C;
+overflow: hidden;
+}
+#header h1 {
+border-bottom: 1px solid #00B2FF;
+text-align: center;
+background: rgba(0, 0, 0, 0.64);
+color: #fff;
+font-size: 25px;
+}
+div#container {
+margin-top: 10px;
+}
+#sidebar {
+float: left;
+width: 200px;
+margin-right: 10px;
+background: #ddd;
+overflow: hidden;
+}
+
+#content {
+width: 730px;
+background: #f1f1f1;
+overflow: hidden;
+padding: 5px 10px;
+min-height: 338px;
+}
+#content h2 {
+border-bottom: 1px solid #8CA7ED;
+text-align: center;
+color: #3683BB;
+}
+div#sidebar h1 {
+text-align: center;
+font-size: 25px;
+background: #21B7DA;
+color: #fff;
+}
+#sidebar h2 {
+text-align: center;
+background: #1E57EA;
+color: #fff;
+font-size: 18px;
+}
+#sidebar ul{margin:0;padding:0;list-style:none;}
+#sidebar ul li {
+text-align: center;
+line-height: 35px;
+}
+#sidebar ul li a {
+color: #6B4848;
+}
+table.tbl2 {
+text-align: center;
+margin: 0 auto;
+}
+table.tbl2 tr th {
+background: #9787C7;
+color: #fff;
+padding: 3px 5px;
+}
+table.tbl2 tr:nth-child(2n) {
+background: #E8E1E1;
+}
+table.tbl2 tr:nth-child(2n+1) {
+background: #F4ECEC;
+}
+table.tbl2 tr td {
+text-align: center;
+padding: 5px 2px;
+font-size: 14px;
+}
+.error{color:red;}
+.success{color:green;}
